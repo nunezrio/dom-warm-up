@@ -4,7 +4,7 @@ function changeLight() {
   document.getElementById("remove-onclick").style.color = "#222222";
 }
 
-function changeGrey() {
+function changeDark() {
   document.body.style.backgroundColor = "#282c35";
   document.getElementById("page-title").style.color = "#f1a5ab";
   document.getElementById("remove-onclick").style.color = "#d4d4d4";
@@ -21,7 +21,7 @@ function showTime() {
   let s = date.getSeconds(); // 0 - 59
   let session = "AM";
 
-  if (h == 0) {
+  if (h === 0) {
     h = 12;
   }
 
