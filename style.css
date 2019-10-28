@@ -55,3 +55,13 @@ p {
   color: #d4d4d4;
   cursor: pointer;
 }
+
+.clock {
+  margin-top: 0 auto;
+  color: #91c5d3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32pt;
+  letter-spacing: 6px;
+  text-align: center;
+}
